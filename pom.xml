@@ -48,7 +48,7 @@
 			</goals>
 			<configuration>
 				<middlewareHome>C:\AppServers\wls1213</middlewareHome>
-				<domainHome>C:\AppServers\wls1213\user_projects\domains\maven_domain</domainHome>
+				<domainHome>C:\AppServers\wls1213\user_projects\domains\maven_domain_1</domainHome>
                 <user>weblogic</user>
                 <password>Welcome1</password>
 				<domainTemplate>C:\AppServers\wls1213\user_projects\templates\base_domain_template.jar</domainTemplate>
@@ -62,7 +62,7 @@
 				<goal>start-server</goal>
 			</goals>
 			<configuration>
-				<domainHome>C:\AppServers\wls1213\user_projects\domains\maven_domain</domainHome>
+				<domainHome>C:\AppServers\wls1213\user_projects\domains\maven_domain_1</domainHome>
 			</configuration>
 		</execution>
 		
@@ -76,7 +76,7 @@
               <adminurl>t3://127.0.0.1:7001</adminurl>
               <user>weblogic</user>
               <password>Welcome1</password>
-              <source>C:\work\POC\wls-maven\Wls-Maven\target\WebDemo-beta.war</source>
+              <source>target\WebDemo-beta.war</source>
               <targets>AdminServer</targets>
               <verbose>true</verbose>
 			  <name>${project.build.finalName}</name>
