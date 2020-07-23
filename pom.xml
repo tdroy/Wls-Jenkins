@@ -40,7 +40,7 @@
         </configuration>
         <executions>
          
-         <execution>
+         <!--execution>
 			<id>wls-create-domain</id>
 			<phase>pre-integration-test</phase>
 			<goals>
@@ -53,7 +53,7 @@
                 <password>Welcome1</password>
 				<domainTemplate>C:\AppServers\wls1213\user_projects\templates\base_domain_template.jar</domainTemplate>
 			</configuration>
-		  </execution>
+		  </execution-->
 		  
 		<execution>
 			<id>wls-wlst-start-server</id>
