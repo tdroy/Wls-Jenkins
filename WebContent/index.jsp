@@ -9,7 +9,7 @@
 	</head>
 	<img src="2000px-Oracle_logo.svg.png" height="34"/>
 	<hr>
-	<h1> <center> Oracle ACS Session by Tanmoy. </h1>
+	<h1> <center> Oracle ACS Session Demo by Tanmoy. </h1>
 	<hr>
 	
 	<%	if(request.getAttribute("Message")!=null)
